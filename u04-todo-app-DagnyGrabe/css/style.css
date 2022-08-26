@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1 {
+    color: black;
+    font-size: 6rem;
+    margin: 7rem;
+    border: 0.5rem solid black;
+    width: 20rem;
+    padding: 1rem;
+    
+}
+
+body {
+    background-color: orange;
+}
+
+.container {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    max-width: 90rem;
+    margin:2rem;
+   
+
+}
+
+
+
+form {
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    width: 32rem;
+    height: 15rem;
+    align-items: flex-end;
+    margin: 2rem;
+}
+input { 
+    
+    width: 100%;
+    font-size: 1.6rem;
+    margin: 1rem 0;
+    border: 0.5rem solid black;
+    padding: 1rem;
+    color: black;
+    background-color:orange;
+
+}
+::placeholder {
+    color: black;
+    opacity: 0.7;
+    font-size: 1.6rem;
+
+}
+
+button {
+    background-color: orange;
+    width: 40%;
+    margin: 0.5rem;
+    border: 0.5rem solid black;
+    padding: 1rem;
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+button:hover {
+    background-color: orangered;
+}
+
+.hej {
+    color:black;
+    font-size: 2rem;
+    border: 0.5rem solid black;
+    margin: 1rem;
+    padding: 1rem;
+    text-transform: uppercase;
+    max-width: 33rem;
+}
+
+.todos {
+    margin: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    min-width: 30rem;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-height: 120rem;
+}
+
+.item {
+    width: 40rem;
+    background-color: orange;
+    margin: 1rem;
+    padding: 1rem;
+    border: 0.5rem solid black;
+}
+
+.hell {
+    color:chartreuse;
+}
+
+.undone {
+    font-size: 20px;
+    color:blue;
+}
+.done {
+     font-size: 20px;
+     color:fuchsia;
+ }
+
+a {
+    text-decoration: none;
+}
